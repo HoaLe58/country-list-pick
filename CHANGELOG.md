@@ -1,3 +1,10 @@
+## 1.0.1+4
+- Upgrade to null safety
+- Fixing web support
+- Generate Alphabet, Thanks @Mun0nKado
+## 1.0.1+3
+- Option SafeArea
+  
 ## 1.0.1+2
 - Customize appBar, countryBuilder, pickerBuilder 
 - Update Readme with example
