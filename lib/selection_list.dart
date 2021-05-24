@@ -129,6 +129,7 @@ class _SelectionListState extends State<SelectionList> {
                                 package: 'country_list_pick',
                                 width: 32.0,
                               ),
+                              onTap: () => Navigator.pop(context, widget.initialSelection),
                               title: Text(widget.initialSelection!.name!),
                               trailing: Padding(
                                 padding: const EdgeInsets.only(right: 20.0),
